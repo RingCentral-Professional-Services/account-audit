@@ -1,0 +1,20 @@
+{
+  "name": "rcsdk-js-template",
+  "version": "1.0.0",
+  "description": "Used as a boiler plate for writing node js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Celoria john.celoria@ringcentral.com",
+  "license": "ISC",
+  "dependencies": {
+    "@ringcentral/sdk": "^4.1.0",
+    "@ringcentral/subscriptions": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "log4js": "^6.3.0",
+    "node-localstorage": "^2.1.6",
+    "winston-daily-rotate-file": "^4.4.2",
+    "xlsx": "^0.16.5"
+  }
+}
